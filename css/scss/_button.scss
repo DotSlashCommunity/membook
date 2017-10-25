@@ -1,0 +1,17 @@
+@import "variables";
+@import "utils";
+
+// global test modules
+$module-debug: debug(false);
+
+.button {
+	text-decoration: none;
+}
+
+.button:hover {
+	background: #616161;
+}
+
+.button-small {
+	padding: 2px;
+}
