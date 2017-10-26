@@ -16,6 +16,10 @@ $card--profile-height: 220px;
 $card--profile-header_avatar-factor: 1.1;
 $card--profile-header_avatar-translateY-factor: 0.05;
 
+// the main cards stack on the top of the
+// bg mast, thus the factor to overlay
+$card--profile-main-card-overlay-factor: 0.7;
+
 // ##################################################################################################
 //		                       precalculated stuff, DO NOT CHNAGE THIS
 // ##################################################################################################
@@ -25,13 +29,18 @@ $card--profile-header_avatar-translateY: ($card--profile-header_avatar-translate
 
 .card {
 	border-radius: $card--corner_radius;
+	display: inline-block;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 2px;
+	margin-right: 2px;
 
 	@include box-shadow(1);
 	transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .card:hover {
-	@include box-shadow(2);
+	@include box-shadow(5);
 }
 
 .card-profile {
@@ -78,7 +87,7 @@ $card--profile-header_avatar-translateY: ($card--profile-header_avatar-translate
 
 .card__social_panel {
 	text-align: center;
-	margin: 8px;
+	margin: 6px;
 
 	@if ($module-debug) {
 		background: blue;
@@ -95,8 +104,9 @@ $card--profile-header_avatar-translateY: ($card--profile-header_avatar-translate
 }
 
 .card__highlight {
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0));
+	// background: black;  						// the old version
 	padding-top: 5px;
-	background: black;
 	opacity: 0.6;
 }
 
@@ -105,4 +115,14 @@ $card--profile-header_avatar-translateY: ($card--profile-header_avatar-translate
 	font-weight: bold;
 	font-size: 12px;
 	color: white;
+}
+
+.cards-container-translate {
+	transform: translateY(-($card--profile-main-card-overlay-factor)*($card--profile-height));
+}
+
+.card-group-label {
+	font-weight: bold;
+	font-size: 11px;
+	color: #424242;
 }

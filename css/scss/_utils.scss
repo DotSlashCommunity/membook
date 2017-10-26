@@ -19,10 +19,35 @@
 }
 
 // CSS Build Level Utils
+$utils--mast-bg-color: #37474F;
+$utils--mast-bg-rect-dimen: 80%;
+
 .utils-no-text-decor {
 	text-decoration: none;
 }
 
 .utils-center-align {
 	text-align: center;
+}
+
+.utils-content-bg {
+	background: $app--content-bg-color;
+}
+
+.utils-mast-bg {
+	width: 100%;
+	height: 100%;
+	background: $utils--mast-bg-color;
+	clip-path: polygon(0% 0%, 0% $utils--mast-bg-rect-dimen, 100% 100%, 100% 0%);
+}
+
+.utils-justify-contents {
+	text-align:justify;
+}
+
+.utils-justify-contents-spacer {
+	width: 100%;
+	display: inline-block;
+	font-size: 0;
+	line-height: 0;
 }
