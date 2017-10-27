@@ -19,6 +19,9 @@ body {
 .utils-accent-color {
   color: #90A4AE; }
 
+.utils-hidden {
+  display: none; }
+
 .card {
   border-radius: 3px;
   display: inline-block;
@@ -110,6 +113,9 @@ body {
 
 .utils-accent-color {
   color: #90A4AE; }
+
+.utils-hidden {
+  display: none; }
 
 .button {
   text-decoration: none; }
