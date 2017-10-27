@@ -16,14 +16,8 @@ body {
   background: #37474F;
   clip-path: polygon(0% 0%, 0% 80%, 100% 100%, 100% 0%); }
 
-.utils-justify-contents {
-  text-align: justify; }
-
-.utils-justify-contents-spacer {
-  width: 100%;
-  display: inline-block;
-  font-size: 0;
-  line-height: 0; }
+.utils-accent-color {
+  color: #90A4AE; }
 
 .card {
   border-radius: 3px;
@@ -114,14 +108,8 @@ body {
   background: #37474F;
   clip-path: polygon(0% 0%, 0% 80%, 100% 100%, 100% 0%); }
 
-.utils-justify-contents {
-  text-align: justify; }
-
-.utils-justify-contents-spacer {
-  width: 100%;
-  display: inline-block;
-  font-size: 0;
-  line-height: 0; }
+.utils-accent-color {
+  color: #90A4AE; }
 
 .button {
   text-decoration: none; }

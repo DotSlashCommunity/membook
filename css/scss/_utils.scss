@@ -41,13 +41,6 @@ $utils--mast-bg-rect-dimen: 80%;
 	clip-path: polygon(0% 0%, 0% $utils--mast-bg-rect-dimen, 100% 100%, 100% 0%);
 }
 
-.utils-justify-contents {
-	text-align:justify;
-}
-
-.utils-justify-contents-spacer {
-	width: 100%;
-	display: inline-block;
-	font-size: 0;
-	line-height: 0;
+.utils-accent-color {
+	color: $app--accent-color;
 }

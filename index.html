@@ -11,6 +11,10 @@
 		<link href="css/libs/fontello/css/fontello.css" rel="stylesheet" />
 		<link href="css/libs/simplegrid/simple-grid.css" rel="stylesheet" />
 
+		<!-- get the jQ -->
+		<script type="text/javascript" src="js/libs/jQuery/jquery.dev.js"></script>
+		<script type="text/javascript" src="js/pseudo.js"></script>
+
 	</head>
 	<body>
 
@@ -24,9 +28,13 @@
 		</div>
 
 		<div class="app__content cards-container-translate">
-			<div class="container utils-justify-contents">
+			<div class="container">
 				<div class="row">
-					<div class="col-12">
+					<div class="col-15 card-group-label utils-accent-color">
+						CORE TEAM <i class="icon icon-right-open utils-accent-color"></i>
+					</div>
+
+					<div class="col-3">
 						<div class="card card-profile">
 							<div class="card__profile_deck">
 								<img src="./assets/dev/ksdme.jpg" class="card__profile_deck_avatar" />
@@ -52,7 +60,9 @@
 								</div>
 							</div>
 						</div>
+					</div>
 
+					<div class="col-3">
 						<div class="card card-profile">
 							<div class="card__profile_deck">
 								<img src="./assets/dev/ksdme2.jpg" class="card__profile_deck_avatar" />
@@ -78,7 +88,37 @@
 								</div>
 							</div>
 						</div>
+					</div>
 
+					<div class="col-3">
+						<div class="card card-profile">
+							<div class="card__profile_deck">
+								<img src="./assets/dev/ksdme2.jpg" class="card__profile_deck_avatar" />
+								
+								<div class="card__overlay-top-left card__overlay-gradient utils-center-align">
+									<div class="card__overlay-bottom-right card__highlight">
+										<span class="card__highlighted_text">Kilari Teja</span>						
+
+										<div class="card__social_panel">
+											<a href="#" class="utils-no-text-decor">
+												<i class="icon icon-github-circled"></i>
+											</a>
+
+											<a href="#" class="utils-no-text-decor">
+												<i class="icon icon-twitter"></i>
+											</a>
+
+											<a href="#" class="utils-no-text-decor">
+												<i class="icon icon-facebook"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-3">
 						<div class="card card-profile">
 							<div class="card__profile_deck">
 								<img src="./assets/dev/ksdme.jpg" class="card__profile_deck_avatar" />
@@ -93,14 +133,20 @@
 											</a>
 
 											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-medium"></i>
+												<i class="icon icon-twitter"></i>
+											</a>
+
+											<a href="#" class="utils-no-text-decor">
+												<i class="icon icon-facebook"></i>
 											</a>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+					</div>
 
+					<div class="col-3">
 						<div class="card card-profile">
 							<div class="card__profile_deck">
 								<img src="./assets/dev/ksdme2.jpg" class="card__profile_deck_avatar" />
@@ -126,45 +172,17 @@
 								</div>
 							</div>
 						</div>
-
-						<div class="card card-profile">
-							<div class="card__profile_deck">
-								<img src="./assets/dev/ksdme2.jpg" class="card__profile_deck_avatar" />
-								
-								<div class="card__overlay-top-left card__overlay-gradient utils-center-align">
-									<div class="card__overlay-bottom-right card__highlight">
-										<span class="card__highlighted_text">Kilari Teja</span>						
-
-										<div class="card__social_panel">
-											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-github-circled"></i>
-											</a>
-
-											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-twitter"></i>
-											</a>
-
-											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-facebook"></i>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="utils-justify-contents-spacer"></div>
 					</div>
 				</div>
 			</div>
 
-			<div class="container utils-justify-contents" style="margin-top: 30px;">
-				<div class="row">
-					<div class="col-6 card-group-label">
+			<div class="container" style="margin-top: 30px;">
+				<div class="row" id="members-section">
+					<div class="col-15 card-group-label">
 						MEMEBERS <i class="icon icon-right-open"></i>
 					</div>
-					
-					<div class="col-12">
+
+					<div class="col-3">
 						<div class="card card-profile">
 							<div class="card__profile_deck">
 								<img src="./assets/dev/ksdme.jpg" class="card__profile_deck_avatar" />
@@ -190,33 +208,9 @@
 								</div>
 							</div>
 						</div>
+					</div>
 
-						<div class="card card-profile">
-							<div class="card__profile_deck">
-								<img src="./assets/dev/ksdme2.jpg" class="card__profile_deck_avatar" />
-								
-								<div class="card__overlay-top-left card__overlay-gradient utils-center-align">
-									<div class="card__overlay-bottom-right card__highlight">
-										<span class="card__highlighted_text">Kilari Teja</span>						
-
-										<div class="card__social_panel">
-											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-github-circled"></i>
-											</a>
-
-											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-twitter"></i>
-											</a>
-
-											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-facebook"></i>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
+					<div class="col-3">
 						<div class="card card-profile">
 							<div class="card__profile_deck">
 								<img src="./assets/dev/ksdme.jpg" class="card__profile_deck_avatar" />
@@ -231,28 +225,6 @@
 											</a>
 
 											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-medium"></i>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card card-profile">
-							<div class="card__profile_deck">
-								<img src="./assets/dev/ksdme2.jpg" class="card__profile_deck_avatar" />
-								
-								<div class="card__overlay-top-left card__overlay-gradient utils-center-align">
-									<div class="card__overlay-bottom-right card__highlight">
-										<span class="card__highlighted_text">Kilari Teja</span>						
-
-										<div class="card__social_panel">
-											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-github-circled"></i>
-											</a>
-
-											<a href="#" class="utils-no-text-decor">
 												<i class="icon icon-twitter"></i>
 											</a>
 
@@ -264,33 +236,9 @@
 								</div>
 							</div>
 						</div>
+					</div>
 
-						<div class="card card-profile">
-							<div class="card__profile_deck">
-								<img src="./assets/dev/ksdme2.jpg" class="card__profile_deck_avatar" />
-								
-								<div class="card__overlay-top-left card__overlay-gradient utils-center-align">
-									<div class="card__overlay-bottom-right card__highlight">
-										<span class="card__highlighted_text">Kilari Teja</span>						
-
-										<div class="card__social_panel">
-											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-github-circled"></i>
-											</a>
-
-											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-twitter"></i>
-											</a>
-
-											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-facebook"></i>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
+					<div class="col-3">
 						<div class="card card-profile">
 							<div class="card__profile_deck">
 								<img src="./assets/dev/ksdme.jpg" class="card__profile_deck_avatar" />
@@ -305,14 +253,20 @@
 											</a>
 
 											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-medium"></i>
+												<i class="icon icon-twitter"></i>
+											</a>
+
+											<a href="#" class="utils-no-text-decor">
+												<i class="icon icon-facebook"></i>
 											</a>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+					</div>
 
+					<div class="col-3">
 						<div class="card card-profile">
 							<div class="card__profile_deck">
 								<img src="./assets/dev/ksdme2.jpg" class="card__profile_deck_avatar" />
@@ -338,33 +292,9 @@
 								</div>
 							</div>
 						</div>
+					</div>
 
-						<div class="card card-profile">
-							<div class="card__profile_deck">
-								<img src="./assets/dev/ksdme2.jpg" class="card__profile_deck_avatar" />
-								
-								<div class="card__overlay-top-left card__overlay-gradient utils-center-align">
-									<div class="card__overlay-bottom-right card__highlight">
-										<span class="card__highlighted_text">Kilari Teja</span>						
-
-										<div class="card__social_panel">
-											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-github-circled"></i>
-											</a>
-
-											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-twitter"></i>
-											</a>
-
-											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-facebook"></i>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
+					<div class="col-3">
 						<div class="card card-profile">
 							<div class="card__profile_deck">
 								<img src="./assets/dev/ksdme.jpg" class="card__profile_deck_avatar" />
@@ -379,28 +309,6 @@
 											</a>
 
 											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-medium"></i>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card card-profile">
-							<div class="card__profile_deck">
-								<img src="./assets/dev/ksdme2.jpg" class="card__profile_deck_avatar" />
-								
-								<div class="card__overlay-top-left card__overlay-gradient utils-center-align">
-									<div class="card__overlay-bottom-right card__highlight">
-										<span class="card__highlighted_text">Kilari Teja</span>						
-
-										<div class="card__social_panel">
-											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-github-circled"></i>
-											</a>
-
-											<a href="#" class="utils-no-text-decor">
 												<i class="icon icon-twitter"></i>
 											</a>
 
@@ -412,33 +320,9 @@
 								</div>
 							</div>
 						</div>
+					</div>
 
-						<div class="card card-profile">
-							<div class="card__profile_deck">
-								<img src="./assets/dev/ksdme2.jpg" class="card__profile_deck_avatar" />
-								
-								<div class="card__overlay-top-left card__overlay-gradient utils-center-align">
-									<div class="card__overlay-bottom-right card__highlight">
-										<span class="card__highlighted_text">Kilari Teja</span>						
-
-										<div class="card__social_panel">
-											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-github-circled"></i>
-											</a>
-
-											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-twitter"></i>
-											</a>
-
-											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-facebook"></i>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
+					<div class="col-3">
 						<div class="card card-profile">
 							<div class="card__profile_deck">
 								<img src="./assets/dev/ksdme.jpg" class="card__profile_deck_avatar" />
@@ -453,14 +337,20 @@
 											</a>
 
 											<a href="#" class="utils-no-text-decor">
-												<i class="icon icon-medium"></i>
+												<i class="icon icon-twitter"></i>
+											</a>
+
+											<a href="#" class="utils-no-text-decor">
+												<i class="icon icon-facebook"></i>
 											</a>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+					</div>
 
+					<div class="col-3">
 						<div class="card card-profile">
 							<div class="card__profile_deck">
 								<img src="./assets/dev/ksdme2.jpg" class="card__profile_deck_avatar" />
@@ -486,10 +376,12 @@
 								</div>
 							</div>
 						</div>
+					</div>
 
+					<div class="col-3">
 						<div class="card card-profile">
 							<div class="card__profile_deck">
-								<img src="./assets/dev/ksdme2.jpg" class="card__profile_deck_avatar" />
+								<img src="./assets/dev/ksdme.jpg" class="card__profile_deck_avatar" />
 								
 								<div class="card__overlay-top-left card__overlay-gradient utils-center-align">
 									<div class="card__overlay-bottom-right card__highlight">
@@ -512,10 +404,12 @@
 								</div>
 							</div>
 						</div>
+					</div>
 
+					<div class="col-3">
 						<div class="card card-profile">
 							<div class="card__profile_deck">
-								<img src="./assets/dev/ksdme2.jpg" class="card__profile_deck_avatar" />
+								<img src="./assets/dev/ksdme.jpg" class="card__profile_deck_avatar" />
 								
 								<div class="card__overlay-top-left card__overlay-gradient utils-center-align">
 									<div class="card__overlay-bottom-right card__highlight">
@@ -538,12 +432,146 @@
 								</div>
 							</div>
 						</div>
+					</div>
 
-						<div class="utils-justify-contents-spacer"></div>
+					<div class="col-3">
+						<div class="card card-profile">
+							<div class="card__profile_deck">
+								<img src="./assets/dev/ksdme.jpg" class="card__profile_deck_avatar" />
+								
+								<div class="card__overlay-top-left card__overlay-gradient utils-center-align">
+									<div class="card__overlay-bottom-right card__highlight">
+										<span class="card__highlighted_text">Kilari Teja</span>						
+
+										<div class="card__social_panel">
+											<a href="#" class="utils-no-text-decor">
+												<i class="icon icon-github-circled"></i>
+											</a>
+
+											<a href="#" class="utils-no-text-decor">
+												<i class="icon icon-twitter"></i>
+											</a>
+
+											<a href="#" class="utils-no-text-decor">
+												<i class="icon icon-facebook"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-3">
+						<div class="card card-profile">
+							<div class="card__profile_deck">
+								<img src="./assets/dev/ksdme.jpg" class="card__profile_deck_avatar" />
+								
+								<div class="card__overlay-top-left card__overlay-gradient utils-center-align">
+									<div class="card__overlay-bottom-right card__highlight">
+										<span class="card__highlighted_text">Kilari Teja</span>						
+
+										<div class="card__social_panel">
+											<a href="#" class="utils-no-text-decor">
+												<i class="icon icon-github-circled"></i>
+											</a>
+
+											<a href="#" class="utils-no-text-decor">
+												<i class="icon icon-twitter"></i>
+											</a>
+
+											<a href="#" class="utils-no-text-decor">
+												<i class="icon icon-facebook"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-3">
+						<div class="card card-profile">
+							<div class="card__profile_deck">
+								<img src="./assets/dev/ksdme.jpg" class="card__profile_deck_avatar" />
+								
+								<div class="card__overlay-top-left card__overlay-gradient utils-center-align">
+									<div class="card__overlay-bottom-right card__highlight">
+										<span class="card__highlighted_text">Kilari Teja</span>						
+
+										<div class="card__social_panel">
+											<a href="#" class="utils-no-text-decor">
+												<i class="icon icon-github-circled"></i>
+											</a>
+
+											<a href="#" class="utils-no-text-decor">
+												<i class="icon icon-twitter"></i>
+											</a>
+
+											<a href="#" class="utils-no-text-decor">
+												<i class="icon icon-facebook"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<template-group id="profile-card">
+			<template id="base_profile">
+				<div class="col-3">
+					<div class="card card-profile">
+						<div class="card__profile_deck">
+							<img src="./assets/{{profile_avatar_url}}" class="card__profile_deck_avatar" />
+							
+							<div class="card__overlay-top-left card__overlay-gradient utils-center-align">
+								<div class="card__overlay-bottom-right card__highlight">
+									<span class="card__highlighted_text">{{profile_name}}</span>						
+
+									<div class="card__social_panel">
+										{{social_links}}
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</template>
+
+			<template id="github_url">
+				<a href="{{profile_github_url}}" class="utils-no-text-decor">
+					<i class="icon icon-github-circled"></i>
+				</a>
+			</template>
+
+			<template id="twitter_url">
+				<a href="{{profile_twitter_url}}" class="utils-no-text-decor">
+					<i class="icon icon-twitter"></i>
+				</a>
+			</template>
+
+			<template id="faceboook_url">
+				<a href="{{profile_facebook_url}}" class="utils-no-text-decor">
+					<i class="icon icon-facebook"></i>
+				</a>
+			</template>
+
+			<template id="medium_url">
+				<a href="{{profile_medium_url}}" class="utils-no-text-decor">
+					<i class="icon icon-medium"></i>
+				</a>
+			</template>
+
+			<template id="phone">
+				<a href="{{profile_phone}}" class="utils-no-text-decor">
+					<i class="icon icon-phone"></i>
+				</a>
+			</template>
+		</template-group>
 
 	</body>
 </html>
