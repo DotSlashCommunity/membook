@@ -3,7 +3,7 @@
 	Pseudo is yet another JS Templating Engine
 */
 
-var Template = (function() {
+var Pseudo = (function() {
 
 	return {
 		fromGroup: function(groupSel) {
@@ -11,7 +11,7 @@ var Template = (function() {
 			groupSel = $(groupSel).children().toArray()
 			for(var elm in groupSel) {
 				elm = groupSel[elm]
-				tempGroup[elm.getAttribute("id")] = Template.from(elm)
+				tempGroup[elm.getAttribute("id")] = Pseudo.from(elm)
 			}
 
 			return tempGroup
@@ -43,7 +43,12 @@ var Template = (function() {
 				render: function(map) {
 					templStrCpy = new String(templStr)
 					for(var key in map) {
-						templStrCpy = templRepl(templStrCpy, key, map[key])
+						var val = map[key]
+
+						if (typeof val == "object" || typeof val == "function")
+							continue
+
+						templStrCpy = templRepl(templStrCpy, key, val)
 					}
 
 					return templStrCpy
@@ -60,14 +65,3 @@ var Template = (function() {
 	}
 
 })();
-
-$(function() {
-	ProfileTemplates = Template.fromGroup("#profile-card")
-	ProfileTemplates.base_profile.renderTo("#members-section", {
-		profile_avatar_url: "ksdme.jpg",
-		profile_name: "Prashant Singh",
-		social_links: ProfileTemplates.medium_url.render({
-			profile_medium_url: "medium.com/@ksdme"
-		})
-	})
-})
