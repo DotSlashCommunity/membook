@@ -7,7 +7,7 @@
 				"profile_branch": "CSE",
 				"profile_avatar": "pro/proxc.jpg",
 				"profile_description": "Programmer!",
-				"profile_year": "2017",
+				"year": "2017",
 
 				"profile_social": {
 					"github_url": "https://github.com/prashantxc"
@@ -20,7 +20,36 @@
 				"profile_branch": "CSE",
 				"profile_avatar": "ksdme/ksdme.jpg",
 				"profile_description": "Enthusiast of What-not!",
-				"profile_year": "2017",
+				"year": "2017",
+
+				"profile_social": {
+					"github_url": "https://github.com/ksdme",
+					"twitter_url": "https://twitter.com/ksdme",
+					"medium_url": "https://medium.com/@ksdme"
+				}
+			},
+
+			{
+				"profile_name": "Shivangi Rai",
+				"profile_year": "3",
+				"profile_branch": "CSE",
+				"profile_avatar": "rai/srai.jpg",
+				"profile_description": "Enthusiast of What-not!",
+				"year": "2017",
+
+				"profile_social": {
+					"github_url": "https://github.com/shivangi",
+					"facebook_url": "https://facebook.com/shivangi"
+				}
+			},
+
+			{
+				"profile_name": "Kilari Teja",
+				"profile_year": "3",
+				"profile_branch": "CSE",
+				"profile_avatar": "ksdme/ksdme.jpg",
+				"profile_description": "Enthusiast of What-not!",
+				"year": "2017",
 
 				"profile_social": {
 					"github_url": "https://github.com/ksdme",
@@ -35,37 +64,7 @@
 				"profile_branch": "CSE",
 				"profile_avatar": "ksdme/ksdme.jpg",
 				"profile_description": "Enthusiast of What-not!",
-				"profile_year": "2017",
-
-				"profile_social": {
-					"github_url": "https://github.com/ksdme",
-					"twitter_url": "https://twitter.com/ksdme",
-					"medium_url": "https://medium.com/@ksdme"
-				}
-			},
-
-			{
-				"profile_name": "Kilari Teja",
-				"profile_year": "3",
-				"profile_branch": "CSE",
-				"profile_avatar": "ksdme/ksdme.jpg",
-				"profile_description": "Enthusiast of What-not!",
-				"profile_year": "2017",
-
-				"profile_social": {
-					"github_url": "https://github.com/ksdme",
-					"twitter_url": "https://twitter.com/ksdme",
-					"medium_url": "https://medium.com/@ksdme"
-				}
-			},
-
-			{
-				"profile_name": "Kilari Teja",
-				"profile_year": "3",
-				"profile_branch": "CSE",
-				"profile_avatar": "ksdme/ksdme.jpg",
-				"profile_description": "Enthusiast of What-not!",
-				"profile_year": "2017",
+				"year": "2017",
 
 				"profile_social": {
 					"github_url": "https://github.com/ksdme",
@@ -84,7 +83,7 @@
 				"profile_branch": "CSE",
 				"profile_avatar": "ksdme/ksdme.jpg",
 				"profile_description": "Hmm, 404 Not Found!",
-				"profile_year": "2017",
+				"year": "2017",
 
 				"profile_social": {
 					"github_url": "https://github.com/atul",
