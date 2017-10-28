@@ -2,17 +2,15 @@
 	"core": {
 		"members": [
 			{
-				"profile_name": "Kilari Teja",
+				"profile_name": "Prashant Singh",
 				"profile_year": "3",
 				"profile_branch": "CSE",
-				"profile_avatar": "ksdme/ksdme.jpg",
-				"profile_description": "Enthusiast of What-not!",
+				"profile_avatar": "pro/proxc.jpg",
+				"profile_description": "Programmer!",
 				"profile_year": "2017",
 
 				"profile_social": {
-					"github_url": "https://github.com/ksdme",
-					"twitter_url": "https://twitter.com/ksdme",
-					"medium_url": "https://medium.com/@ksdme"
+					"github_url": "https://github.com/prashantxc"
 				}
 			},
 
